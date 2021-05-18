@@ -30,7 +30,8 @@ namespace Middleware
             }
 
             //First way to create own middleware
-            //app.Use(async (context, next) => {
+            //app.Use(async (context, next) =>
+            //{
             //    var stopwatch = new Stopwatch();
             //    stopwatch.Start();
             //    var requestGuid = Guid.NewGuid().ToString();

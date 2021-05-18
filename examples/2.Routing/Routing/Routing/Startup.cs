@@ -29,7 +29,7 @@ namespace Routing
                 // the main endpoint
                 endpoints.MapGet("/", async context =>
                 {
-                    var response = "<a href='/hello/Yan'>/hello/{name:alpha}</a><br/>" +
+                    var response = "<a href='/hello/Yan' target='_blank'>/hello/{name:alpha}</a><br/>" +
                         "<a href='/hello/5' target='_blank'>/hello/{name:int}</a><br/>" +
                         "<a href='/ageCheck/25' target='_blank'>/ageCheck/{age:int:min(18)}</a><br/>" +
                         "<a href='/ageCheck/15' target='_blank'>/ageCheck/{age:int:range(1,17)}</a><br/>" +
